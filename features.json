@@ -1,0 +1,37 @@
+{
+  "SEER": {
+    "numeric": [
+      "age",
+      "tumor_size_mm",
+      "nodes_examined",
+      "nodes_positive",
+      "t_stage",
+      "n_stage",
+      "grade",
+      "distant_spread",
+      "er_positive",
+      "pr_positive"
+    ],
+    "nominal": [
+      "race",
+      "marital_status"
+    ]
+  },
+  "METABRIC": {
+    "numeric": [
+      "age",
+      "tumor_size_mm",
+      "nodes_positive",
+      "grade",
+      "er_positive",
+      "pr_positive",
+      "her2_positive",
+      "postmenopausal",
+      "cellularity"
+    ],
+    "nominal": [
+      "pam50_subtype",
+      "histology"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "generation": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 450
+  },
+  "batch_size": 8,
+  "repeats": [
+    1,
+    2,
+    3
+  ],
+  "seed_rule": "torch.manual_seed(1000000 + batch_index) before each batch of the fixed job list",
+  "tokenisation": "chat template text, then tokenizer(..., add_special_tokens=False)",
+  "qwen": "enable_thinking=False",
+  "quantization": "4-bit NF4, float16 compute, double quant"
+}

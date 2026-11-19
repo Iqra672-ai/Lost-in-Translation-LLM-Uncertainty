@@ -1,0 +1,17 @@
+{
+  "qwen": {
+    "repo": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "pinned_on": "2026-10-28"
+  },
+  "mistral": {
+    "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "pinned_on": "2026-10-28"
+  },
+  "llama": {
+    "repo": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "pinned_on": "2026-10-28"
+  }
+}
